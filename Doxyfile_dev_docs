@@ -1,0 +1,5 @@
+@INCLUDE=./Doxyfile
+EXCLUDE=src/doc/user src/doc/tutorials
+OUTPUT_DIRECTORY=doc/developer
+WARN_LOGFILE=doc/developer/doxygen.err
+@INCLUDE=

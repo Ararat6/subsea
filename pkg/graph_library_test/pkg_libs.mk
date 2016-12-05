@@ -1,0 +1,1 @@
+l := -Wl,-rpath=/home/firefly/graph_library/lib -Wl,-rpath=/home/firefly/graph_library/lib32 -Wl,-rpath=/home/firefly/graph_library/lib64 -L/home/firefly/graph_library/lib -L/home/firefly/graph_library/lib32 -L/home/firefly/graph_library/lib64 -lgraph_library 

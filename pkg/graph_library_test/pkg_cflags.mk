@@ -1,0 +1,1 @@
+cflags := -I/home/firefly/graph_library/inc 

@@ -1,0 +1,11 @@
+
+prefix=/home/firefly/graph_library
+libdir=${prefix}/lib
+includedir=${prefix}/inc
+
+Name: graph_library
+Version: 0.0.1
+Description: Graph_Library 0.0.1
+Requires: 
+Libs: -Wl,-rpath=${prefix}/lib -L${prefix}/lib -Wl,-rpath=${prefix}/lib32 -L${prefix}/lib32 -Wl,-rpath=${prefix}/lib64 -L${prefix}/lib64  -lgraph_library
+Cflags: -I${prefix}/inc
